@@ -113,6 +113,8 @@
                 <configuration>
                     <url>http://localhost:8083/manager/text</url>
                     <path>webproject</path>
+		    <username>deployer</username>
+                    <password>dora0080</password>
                 </configuration>
             </plugin>
         </plugins>
