@@ -99,7 +99,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.1</version>
                 <configuration>
-                    <url>http://localhost:8083</url>
+                    <url>http://localhost:8083/manager/text</url>
                     <path>webproject</path>
                     <username>deployer</username>
                     <password>dora0080</password>
