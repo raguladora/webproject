@@ -71,6 +71,7 @@
         </dependency>
 
     </dependencies>
+    <!--
     <profiles>
         <profile>
             <id>tomcat-localhost</id>
@@ -83,6 +84,7 @@
             </properties>
         </profile>
     </profiles>
+    -->
     <build>
         <finalName>webproject</finalName>
         <plugins>
@@ -113,7 +115,7 @@
                 <configuration>
                     <url>http://localhost:8083/manager/text</url>
 		    <server>TomcatServer</server>
-                    <path>webproject</path>
+                    <path>/webproject</path>
                 </configuration>
             </plugin>
         </plugins>
